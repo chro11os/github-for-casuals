@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'github_nonpro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.pgsql',
+        'NAME': BASE_DIR / 'db.psql',
     }
 }
 
